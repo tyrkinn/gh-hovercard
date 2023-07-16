@@ -1,0 +1,376 @@
+Info 0    [15:21:56.127] Starting TS Server
+Info 1    [15:21:56.128] Version: 4.8.3
+Info 2    [15:21:56.128] Arguments: /opt/homebrew/Cellar/node@18/18.16.1_1/bin/node /opt/homebrew/lib/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoot --cancellationPipeName /private/var/folders/6p/tkt6njyd0wb4nkwjrhh_9h940000gn/T/acab2f7ae623442e6950954459b87f14/tscancellation* --logFile /Users/tyrkinn/github/tyrkinn/gh-popup/.log/tsserver.log --logVerbosity info --locale en --validateDefaultNpmLocation --useNodeIpc
+Info 3    [15:21:56.128] Platform: darwin NodeVersion: 18 CaseSensitive: false
+Info 4    [15:21:56.128] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [15:21:56.134] Format host information updated
+Info 6    [15:21:56.184] Search path: /Users/tyrkinn/github/tyrkinn/gh-popup
+Info 7    [15:21:56.185] For info: /Users/tyrkinn/github/tyrkinn/gh-popup/popup.tsx :: Config file name: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 8    [15:21:56.185] Creating configuration project /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 9    [15:21:56.203] Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json : {
+ "rootNames": [
+  "/Users/tyrkinn/github/tyrkinn/gh-popup/node_modules/.pnpm/plasmo@0.80.0_react-dom@18.2.0_react@18.2.0/node_modules/plasmo/templates/plasmo.d.ts",
+  "/Users/tyrkinn/github/tyrkinn/gh-popup/.plasmo/index.d.ts",
+  "/Users/tyrkinn/github/tyrkinn/gh-popup/popup.tsx"
+ ],
+ "options": {
+  "strict": false,
+  "skipLibCheck": true,
+  "target": 99,
+  "lib": [
+   "lib.dom.d.ts",
+   "lib.dom.iterable.d.ts",
+   "lib.esnext.d.ts"
+  ],
+  "allowJs": true,
+  "forceConsistentCasingInFileNames": true,
+  "noEmit": true,
+  "incremental": true,
+  "esModuleInterop": true,
+  "module": 99,
+  "resolveJsonModule": true,
+  "declaration": false,
+  "declarationMap": false,
+  "inlineSources": false,
+  "moduleResolution": 2,
+  "noUnusedLocals": false,
+  "noUnusedParameters": false,
+  "preserveWatchOutput": true,
+  "jsx": 1,
+  "paths": {
+   "~*": [
+    "./*"
+   ]
+  },
+  "baseUrl": "/Users/tyrkinn/github/tyrkinn/gh-popup",
+  "pathsBasePath": "/Users/tyrkinn/github/tyrkinn/gh-popup",
+  "configFilePath": "/Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json"
+ }
+}
+Info 10   [15:21:56.210] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 11   [15:21:56.865] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 654.5174159999005ms
+Info 12   [15:21:56.865] Project '/Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json' (Configured)
+Info 13   [15:21:56.865] 	Files (124)
+
+Info 14   [15:21:56.865] -----------------------------------------------
+Info 15   [15:21:56.870] AutoImportProviderProject: found 1 root files in 1 dependencies in 2.9879580000415444 ms
+Info 16   [15:21:56.870] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 17   [15:21:56.872] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1.77295899996534ms
+Info 18   [15:21:56.872] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 19   [15:21:56.872] 	Files (1)
+
+Info 20   [15:21:56.872] -----------------------------------------------
+Info 21   [15:21:56.885] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.log/ti-10216.log :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 22   [15:21:56.887] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected file add/remove of non supported extension: /users/tyrkinn/github/tyrkinn/gh-popup/.log/ti-10216.log
+Info 23   [15:21:56.887] Elapsed:: 0.28370799985714257ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.log/ti-10216.log :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 24   [15:22:02.619] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 25   [15:22:02.620] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected ignored path: /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx
+Info 26   [15:22:02.620] Elapsed:: 0.3083340001758188ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 27   [15:22:02.620] DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup 0 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 28   [15:22:02.620] Elapsed:: 0.290042000124231ms DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup 0 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 29   [15:22:02.819] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 30   [15:22:02.835] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 15.881916999816895ms
+Info 31   [15:22:02.836] Different program with same set of files
+Info 32   [15:22:02.917] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 33   [15:22:02.921] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 3.869541000109166ms
+Info 34   [15:22:02.921] Different program with same set of files
+Info 35   [15:22:03.131] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 36   [15:22:03.139] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 7.908583000069484ms
+Info 37   [15:22:03.139] Different program with same set of files
+Info 38   [15:22:03.142] getCompletionData: Get current token: 0.023584000067785382
+Info 39   [15:22:03.142] getCompletionData: Is inside comment: 0.013166000135242939
+Info 40   [15:22:03.142] getCompletionData: Get previous token: 0.09537500003352761
+Info 41   [15:22:03.143] getCompletionsAtPosition: isCompletionListBlocker: 0.3866249998100102
+Info 42   [15:22:03.143] Returning an empty list because completion was requested in an invalid position.
+Info 43   [15:22:03.629] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 44   [15:22:03.641] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 11.97779200016521ms
+Info 45   [15:22:03.641] Different program with same set of files
+Info 46   [15:22:03.705] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 47   [15:22:03.708] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 3.3489579998422414ms
+Info 48   [15:22:03.708] Different program with same set of files
+Info 49   [15:22:04.131] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 50   [15:22:04.143] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 11.760458000004292ms
+Info 51   [15:22:04.143] Different program with same set of files
+Info 52   [15:22:04.203] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 53   [15:22:04.209] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 6.360791999846697ms
+Info 54   [15:22:04.209] Different program with same set of files
+Info 55   [15:22:04.472] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 56   [15:22:04.481] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 8.723958000075072ms
+Info 57   [15:22:04.481] Different program with same set of files
+Info 58   [15:22:09.503] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 59   [15:22:09.503] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected ignored path: /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx
+Info 60   [15:22:09.503] Elapsed:: 0.09737499989569187ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 61   [15:22:09.503] DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup 0 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 62   [15:22:09.503] Elapsed:: 0.023290999932214618ms DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup 0 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 63   [15:22:09.553] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.git/index.lock :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 64   [15:22:09.553] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected ignored path: /users/tyrkinn/github/tyrkinn/gh-popup/.git/index.lock
+Info 65   [15:22:09.554] Elapsed:: 0.06220899987965822ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.git/index.lock :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 66   [15:22:09.777] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js.9183.c :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 67   [15:22:09.777] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected file add/remove of non supported extension: /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js.9183.c
+Info 68   [15:22:09.777] Elapsed:: 0.09862500010058284ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js.9183.c :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 69   [15:22:09.777] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 70   [15:22:09.778] Elapsed:: 0.3484169999137521ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 71   [15:22:09.778] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 72   [15:22:09.778] Elapsed:: 0.22170799993909895ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 73   [15:22:10.028] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 74   [15:22:10.029] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 0.8178749999497086ms
+Info 75   [15:22:12.280] Before ensureProjectForOpenFiles:
+Info 76   [15:22:12.280] After ensureProjectForOpenFiles:
+Info 77   [15:22:12.280] got projects updated in background, updating diagnostics for /Users/tyrkinn/github/tyrkinn/gh-popup/popup.tsx
+Info 78   [15:22:13.298] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 79   [15:22:13.298] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected ignored path: /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx
+Info 80   [15:22:13.298] Elapsed:: 0.36316599999554455ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 81   [15:22:13.299] DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup 0 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 82   [15:22:13.299] Elapsed:: 0.08808299992233515ms DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup 0 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 83   [15:22:13.499] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 84   [15:22:13.516] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 16.251832999987528ms
+Info 85   [15:22:13.516] Different program with same set of files
+Info 86   [15:22:14.123] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 87   [15:22:14.131] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 7.722666000016034ms
+Info 88   [15:22:14.131] Different program with same set of files
+Info 89   [15:22:14.132] getCompletionData: Get current token: 0.017583000008016825
+Info 90   [15:22:14.132] getCompletionData: Is inside comment: 0.006166999926790595
+Info 91   [15:22:14.132] getCompletionData: Get previous token: 0.05933399987407029
+Info 92   [15:22:14.132] getCompletionsAtPosition: isCompletionListBlocker: 0.017165999859571457
+Info 93   [15:22:14.132] Returning an empty list because completion was requested in an invalid position.
+Info 94   [15:22:14.710] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 95   [15:22:14.721] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 13 structureChanged: false structureIsReused:: Completely Elapsed: 10.983084000181407ms
+Info 96   [15:22:14.721] Different program with same set of files
+Info 97   [15:22:15.567] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 98   [15:22:15.567] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected ignored path: /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx
+Info 99   [15:22:15.567] Elapsed:: 0.12066599982790649ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 100  [15:22:15.567] DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup 0 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 101  [15:22:15.567] Elapsed:: 0.026624999940395355ms DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup 0 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 102  [15:22:15.618] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.git/index.lock :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 103  [15:22:15.618] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected ignored path: /users/tyrkinn/github/tyrkinn/gh-popup/.git/index.lock
+Info 104  [15:22:15.618] Elapsed:: 0.05933400010690093ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.git/index.lock :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 105  [15:22:15.829] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js.9183.d :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 106  [15:22:15.829] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected file add/remove of non supported extension: /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js.9183.d
+Info 107  [15:22:15.829] Elapsed:: 0.09570900001563132ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js.9183.d :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 108  [15:22:15.829] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 109  [15:22:15.830] Elapsed:: 0.1796669999603182ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 110  [15:22:15.830] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 111  [15:22:15.830] Elapsed:: 0.13808299996890128ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 112  [15:22:16.091] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 113  [15:22:16.092] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 0.9558339999057353ms
+Info 114  [15:22:18.330] Before ensureProjectForOpenFiles:
+Info 115  [15:22:18.331] After ensureProjectForOpenFiles:
+Info 116  [15:22:18.331] got projects updated in background, updating diagnostics for /Users/tyrkinn/github/tyrkinn/gh-popup/popup.tsx
+Info 117  [15:22:18.475] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 118  [15:22:18.475] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected ignored path: /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx
+Info 119  [15:22:18.475] Elapsed:: 0.5057500000111759ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 120  [15:22:18.475] DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup 0 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 121  [15:22:18.475] Elapsed:: 0.08100000000558794ms DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup 0 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 122  [15:22:18.676] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 123  [15:22:18.687] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 11.699708000058308ms
+Info 124  [15:22:18.688] Different program with same set of files
+Info 125  [15:22:18.747] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 126  [15:22:18.750] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 16 structureChanged: false structureIsReused:: Completely Elapsed: 3.1343330000527203ms
+Info 127  [15:22:18.750] Different program with same set of files
+Info 128  [15:22:19.229] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 129  [15:22:19.240] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 10.542707999935374ms
+Info 130  [15:22:19.240] Different program with same set of files
+Info 131  [15:22:19.241] getCompletionData: Get current token: 0.018500000005587935
+Info 132  [15:22:19.241] getCompletionData: Is inside comment: 0.0063749998807907104
+Info 133  [15:22:19.241] getCompletionData: Get previous token: 0.0633330000564456
+Info 134  [15:22:19.241] getCompletionsAtPosition: isCompletionListBlocker: 0.017167000100016594
+Info 135  [15:22:19.241] Returning an empty list because completion was requested in an invalid position.
+Info 136  [15:22:19.298] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 137  [15:22:19.301] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 18 structureChanged: false structureIsReused:: Completely Elapsed: 3.021625000052154ms
+Info 138  [15:22:19.301] Different program with same set of files
+Info 139  [15:22:23.937] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 140  [15:22:23.949] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 11.762125000124797ms
+Info 141  [15:22:23.949] Different program with same set of files
+Info 142  [15:22:25.679] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 143  [15:22:25.680] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected ignored path: /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx
+Info 144  [15:22:25.680] Elapsed:: 0.12054100004024804ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 145  [15:22:25.680] DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup 0 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 146  [15:22:25.680] Elapsed:: 0.020957999862730503ms DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup 0 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 147  [15:22:25.730] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.git/index.lock :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 148  [15:22:25.730] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected ignored path: /users/tyrkinn/github/tyrkinn/gh-popup/.git/index.lock
+Info 149  [15:22:25.730] Elapsed:: 0.05166599992662668ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.git/index.lock :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 150  [15:22:25.964] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js.9183.e :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 151  [15:22:25.964] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected file add/remove of non supported extension: /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js.9183.e
+Info 152  [15:22:25.964] Elapsed:: 0.08029199996963143ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js.9183.e :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 153  [15:22:25.964] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 154  [15:22:25.964] Elapsed:: 0.17358399997465312ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 155  [15:22:25.964] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 156  [15:22:25.965] Elapsed:: 0.13925000000745058ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 157  [15:22:26.224] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 158  [15:22:26.225] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 20 structureChanged: false structureIsReused:: Completely Elapsed: 0.6360420000273734ms
+Info 159  [15:22:27.054] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 160  [15:22:27.054] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected ignored path: /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx
+Info 161  [15:22:27.054] Elapsed:: 0.2027499999385327ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 162  [15:22:27.054] DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup 0 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 163  [15:22:27.054] Elapsed:: 0.07370899990200996ms DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup 0 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 164  [15:22:27.256] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 165  [15:22:27.267] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 21 structureChanged: false structureIsReused:: Completely Elapsed: 11.326041999971494ms
+Info 166  [15:22:27.267] Different program with same set of files
+Info 167  [15:22:28.465] Before ensureProjectForOpenFiles:
+Info 168  [15:22:28.466] After ensureProjectForOpenFiles:
+Info 169  [15:22:28.466] got projects updated in background, updating diagnostics for /Users/tyrkinn/github/tyrkinn/gh-popup/popup.tsx
+Info 170  [15:22:28.567] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 171  [15:22:28.582] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 22 structureChanged: false structureIsReused:: Completely Elapsed: 14.514875000109896ms
+Info 172  [15:22:28.582] Different program with same set of files
+Info 173  [15:22:30.063] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 174  [15:22:30.063] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected ignored path: /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx
+Info 175  [15:22:30.063] Elapsed:: 0.09295899979770184ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 176  [15:22:30.063] DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup 0 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 177  [15:22:30.063] Elapsed:: 0.02208299981430173ms DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/.#popup.tsx :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup 0 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 178  [15:22:30.114] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.git/index.lock :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 179  [15:22:30.114] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected ignored path: /users/tyrkinn/github/tyrkinn/gh-popup/.git/index.lock
+Info 180  [15:22:30.114] Elapsed:: 0.044708000030368567ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/.git/index.lock :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 181  [15:22:30.304] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js.9183.f :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 182  [15:22:30.304] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected file add/remove of non supported extension: /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js.9183.f
+Info 183  [15:22:30.304] Elapsed:: 0.07737500010989606ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js.9183.f :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 184  [15:22:30.304] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 185  [15:22:30.304] Elapsed:: 0.2809999999590218ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 186  [15:22:30.304] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 187  [15:22:30.304] Elapsed:: 0.14874999993480742ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/build/chrome-mv3-dev/popup.7d3dc21e.js :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 188  [15:22:30.562] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 189  [15:22:30.563] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 23 structureChanged: false structureIsReused:: Completely Elapsed: 0.5811660001054406ms
+Info 190  [15:22:32.805] Before ensureProjectForOpenFiles:
+Info 191  [15:22:32.806] After ensureProjectForOpenFiles:
+Info 192  [15:22:32.806] got projects updated in background, updating diagnostics for /Users/tyrkinn/github/tyrkinn/gh-popup/popup.tsx
+Info 193  [15:23:37.759] Search path: /Users/tyrkinn/github/tyrkinn/gh-popup/background/messages
+Info 194  [15:23:37.760] For info: /Users/tyrkinn/github/tyrkinn/gh-popup/background/messages/ping.ts :: Config file name: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 195  [15:23:37.770] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 196  [15:23:38.149] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 379.1075420000125ms
+Info 197  [15:23:38.149] Project '/dev/null/inferredProject1*' (Inferred)
+Info 198  [15:23:38.149] 	Files (112)
+
+Info 199  [15:23:38.149] -----------------------------------------------
+Info 200  [15:23:38.153] AutoImportProviderProject: found 1 root files in 1 dependencies in 3.0609579998999834 ms
+Info 201  [15:23:38.153] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject2*
+Info 202  [15:23:38.157] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject2* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 3.911041999934241ms
+Info 203  [15:23:38.157] Project '/dev/null/autoImportProviderProject2*' (AutoImportProvider)
+Info 204  [15:23:38.157] 	Files (1)
+
+Info 205  [15:23:38.157] -----------------------------------------------
+Info 206  [15:23:38.158] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/background :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 207  [15:23:38.158] Elapsed:: 0.28125ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/background :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 208  [15:23:38.158] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/background/messages :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 209  [15:23:38.158] Elapsed:: 0.04808399989269674ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/background/messages :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 210  [15:23:38.158] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/background/messages/ping.ts :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 211  [15:23:38.158] Elapsed:: 0.04191699996590614ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/background/messages/ping.ts :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 212  [15:23:38.158] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/background/messages/.#ping.ts :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 213  [15:23:38.158] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected ignored path: /users/tyrkinn/github/tyrkinn/gh-popup/background/messages/.#ping.ts
+Info 214  [15:23:38.158] Elapsed:: 0.013291000155732036ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/background/messages/.#ping.ts :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 215  [15:23:38.158] DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/background :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup 0 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 216  [15:23:38.158] Elapsed:: 0.027874999912455678ms DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/background :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup 0 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 217  [15:23:38.166] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 218  [15:23:38.194] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 24 structureChanged: true structureIsReused:: Not Elapsed: 28.28658299986273ms
+Info 219  [15:23:38.194] Project '/Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json' (Configured)
+Info 220  [15:23:38.194] 	Files (125)
+
+Info 221  [15:23:38.194] -----------------------------------------------
+Info 222  [15:23:38.195] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 223  [15:23:38.195] 	Files (1)
+
+Info 224  [15:23:38.195] -----------------------------------------------
+Info 225  [15:23:40.659] Before ensureProjectForOpenFiles:
+Info 226  [15:23:40.659] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 227  [15:23:40.669] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 9.25754199991934ms
+Info 228  [15:23:40.669] Project '/dev/null/inferredProject1*' (Inferred)
+Info 229  [15:23:40.669] 	Files (0)
+
+Info 230  [15:23:40.669] -----------------------------------------------
+Info 231  [15:23:40.669] Project '/dev/null/autoImportProviderProject2*' (AutoImportProvider)
+Info 232  [15:23:40.669] 	Files (1)
+
+Info 233  [15:23:40.669] -----------------------------------------------
+Info 234  [15:23:40.670] After ensureProjectForOpenFiles:
+Info 235  [15:23:40.670] got projects updated in background, updating diagnostics for /Users/tyrkinn/github/tyrkinn/gh-popup/popup.tsx,/Users/tyrkinn/github/tyrkinn/gh-popup/background/messages/ping.ts
+Info 236  [15:23:41.872] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 237  [15:23:42.236] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: true structureIsReused:: Not Elapsed: 364.01204199995846ms
+Info 238  [15:23:42.236] Project '/dev/null/inferredProject1*' (Inferred)
+Info 239  [15:23:42.236] 	Files (176)
+
+Info 240  [15:23:42.237] -----------------------------------------------
+Info 241  [15:23:42.237] Project '/dev/null/autoImportProviderProject2*' (AutoImportProvider)
+Info 242  [15:23:42.237] 	Files (1)
+
+Info 243  [15:23:42.237] -----------------------------------------------
+Info 244  [15:23:44.122] Before ensureProjectForOpenFiles:
+Info 245  [15:23:44.122] After ensureProjectForOpenFiles:
+Info 246  [15:23:44.123] got projects updated in background, updating diagnostics for /Users/tyrkinn/github/tyrkinn/gh-popup/popup.tsx,/Users/tyrkinn/github/tyrkinn/gh-popup/background/messages/ping.ts
+Info 247  [15:23:44.301] DirectoryWatcher:: Triggered with /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules/@types/har-format :: WatchInfo: /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 248  [15:23:44.302] Elapsed:: 0.09616700001060963ms DirectoryWatcher:: Triggered with /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules/@types/har-format :: WatchInfo: /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 249  [15:23:45.191] DirectoryWatcher:: Triggered with /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules/@types/har-format/LICENSE :: WatchInfo: /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 250  [15:23:45.191] Elapsed:: 0.06312499986961484ms DirectoryWatcher:: Triggered with /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules/@types/har-format/LICENSE :: WatchInfo: /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 251  [15:23:45.192] DirectoryWatcher:: Triggered with /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules/@types/har-format/README.md :: WatchInfo: /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 252  [15:23:45.192] Elapsed:: 0.022083000047132373ms DirectoryWatcher:: Triggered with /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules/@types/har-format/README.md :: WatchInfo: /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 253  [15:23:45.192] DirectoryWatcher:: Triggered with /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules/@types/har-format/index.d.ts :: WatchInfo: /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 254  [15:23:45.192] Elapsed:: 0.42274999991059303ms DirectoryWatcher:: Triggered with /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules/@types/har-format/index.d.ts :: WatchInfo: /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 255  [15:23:45.192] DirectoryWatcher:: Triggered with /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules/@types/har-format/package.json :: WatchInfo: /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 256  [15:23:45.192] Elapsed:: 0.05629099998623133ms DirectoryWatcher:: Triggered with /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules/@types/har-format/package.json :: WatchInfo: /Users/tyrkinn/Library/Caches/typescript/4.8/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 257  [15:23:45.474] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 258  [15:23:45.561] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: true structureIsReused:: Not Elapsed: 86.86058299988508ms
+Info 259  [15:23:45.561] Project '/dev/null/inferredProject1*' (Inferred)
+Info 260  [15:23:45.561] 	Files (177)
+
+Info 261  [15:23:45.561] -----------------------------------------------
+Info 262  [15:23:45.561] Project '/dev/null/autoImportProviderProject2*' (AutoImportProvider)
+Info 263  [15:23:45.561] 	Files (1)
+
+Info 264  [15:23:45.561] -----------------------------------------------
+Info 265  [15:23:45.924] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 266  [15:23:45.985] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: true structureIsReused:: Not Elapsed: 61.40958400000818ms
+Info 267  [15:23:45.985] Project '/dev/null/inferredProject1*' (Inferred)
+Info 268  [15:23:45.985] 	Files (177)
+
+Info 269  [15:23:45.985] -----------------------------------------------
+Info 270  [15:23:45.985] Project '/dev/null/autoImportProviderProject2*' (AutoImportProvider)
+Info 271  [15:23:45.985] 	Files (1)
+
+Info 272  [15:23:45.985] -----------------------------------------------
+Info 273  [15:23:46.085] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/background/messages/.#ping.ts :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 274  [15:23:46.086] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected ignored path: /users/tyrkinn/github/tyrkinn/gh-popup/background/messages/.#ping.ts
+Info 275  [15:23:46.086] Elapsed:: 0.16754200006835163ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/background/messages/.#ping.ts :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 276  [15:23:46.916] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 277  [15:23:46.923] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 25 structureChanged: false structureIsReused:: Completely Elapsed: 6.856499999994412ms
+Info 278  [15:23:46.924] Different program with same set of files
+Info 279  [15:23:46.980] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 280  [15:23:46.983] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 26 structureChanged: false structureIsReused:: Completely Elapsed: 3.0027910000644624ms
+Info 281  [15:23:46.984] Different program with same set of files
+Info 282  [15:23:47.837] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 283  [15:23:47.843] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 27 structureChanged: false structureIsReused:: Completely Elapsed: 6.550458000041544ms
+Info 284  [15:23:47.843] Different program with same set of files
+Info 285  [15:23:48.174] Before ensureProjectForOpenFiles:
+Info 286  [15:23:48.174] After ensureProjectForOpenFiles:
+Info 287  [15:23:48.174] got projects updated in background, updating diagnostics for /Users/tyrkinn/github/tyrkinn/gh-popup/popup.tsx,/Users/tyrkinn/github/tyrkinn/gh-popup/background/messages/ping.ts
+Info 288  [15:23:48.669] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 289  [15:23:48.678] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 28 structureChanged: false structureIsReused:: Completely Elapsed: 8.709792000008747ms
+Info 290  [15:23:48.678] Different program with same set of files
+Info 291  [15:23:49.604] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 292  [15:23:49.613] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 29 structureChanged: false structureIsReused:: Completely Elapsed: 8.28512499993667ms
+Info 293  [15:23:49.613] Different program with same set of files
+Info 294  [15:23:52.074] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 295  [15:23:52.113] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 30 structureChanged: true structureIsReused:: SafeModules Elapsed: 38.929415999911726ms
+Info 296  [15:23:52.113] Different program with same set of files
+Info 297  [15:23:52.160] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 298  [15:23:52.177] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 31 structureChanged: true structureIsReused:: SafeModules Elapsed: 16.867291999980807ms
+Info 299  [15:23:52.177] Different program with same set of files
+Info 300  [15:23:52.674] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 301  [15:23:52.711] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 32 structureChanged: true structureIsReused:: SafeModules Elapsed: 35.443582999985665ms
+Info 302  [15:23:52.711] Different program with same set of files
+Info 303  [15:23:53.026] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 304  [15:23:53.058] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 33 structureChanged: true structureIsReused:: SafeModules Elapsed: 32.525583000155166ms
+Info 305  [15:23:53.058] Different program with same set of files
+Info 306  [15:23:53.551] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 307  [15:23:53.579] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 34 structureChanged: true structureIsReused:: SafeModules Elapsed: 27.77591699990444ms
+Info 308  [15:23:53.579] Different program with same set of files
+Info 309  [15:23:53.631] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 310  [15:23:53.644] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 35 structureChanged: true structureIsReused:: SafeModules Elapsed: 12.200124999973923ms
+Info 311  [15:23:53.644] Different program with same set of files
+Info 312  [15:23:54.432] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 313  [15:23:54.465] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 36 structureChanged: true structureIsReused:: SafeModules Elapsed: 32.15145800006576ms
+Info 314  [15:23:54.465] Different program with same set of files
+Info 315  [15:23:57.368] DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/background/messages/.#ping.ts :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 316  [15:23:57.368] Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Detected ignored path: /users/tyrkinn/github/tyrkinn/gh-popup/background/messages/.#ping.ts
+Info 317  [15:23:57.368] Elapsed:: 0.0873340000398457ms DirectoryWatcher:: Triggered with /users/tyrkinn/github/tyrkinn/gh-popup/background/messages/.#ping.ts :: WatchInfo: /users/tyrkinn/github/tyrkinn/gh-popup 1 undefined Config: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Wild card directory
+Info 318  [15:23:57.368] DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/background/messages/.#ping.ts :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup/background 1 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 319  [15:23:57.369] Elapsed:: 0.029000000096857548ms DirectoryWatcher:: Triggered with /Users/tyrkinn/github/tyrkinn/gh-popup/background/messages/.#ping.ts :: WatchInfo: /Users/tyrkinn/github/tyrkinn/gh-popup/background 1 undefined Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json WatchType: Failed Lookup Locations
+Info 320  [15:23:57.469] Starting updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json
+Info 321  [15:23:57.472] Finishing updateGraphWorker: Project: /Users/tyrkinn/github/tyrkinn/gh-popup/tsconfig.json Version: 37 structureChanged: false structureIsReused:: Completely Elapsed: 3.1446660000365227ms
+Info 322  [15:23:57.472] Different program with same set of files
