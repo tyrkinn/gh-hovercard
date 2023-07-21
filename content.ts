@@ -9,6 +9,7 @@ export const config: PlasmoCSConfig = {
 const popup = document.createElement('div')
 popup.className = 'hvcard'
 popup.style.position = 'absolute'
+popup.style.display = 'none'
 document.body.appendChild(popup)
 
 const appendStyles = () => {
